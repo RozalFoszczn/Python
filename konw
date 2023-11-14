@@ -1,0 +1,19 @@
+ilosc=int(input("podaj ilosc: "))
+jednostka1=input("podaj jednostke poczatkowa(m, km, cm, mm): ")
+jednostka2=input("na jaka jednostke chcesz przeliczyc(m, km, cm, mm): ")
+
+if jednostka1 == "mm":
+    if jednostka2=="mm":
+        print:("(ilosc)")
+    elif jednostka2=="cm":
+        ilosc /= 10
+        print("(ilosc)")
+    elif jednostka2=="m":
+        ilosc /= 1000
+        print("(ilosc)")
+    elif jednostka2=="km":
+        ilosc /= 1000000
+        print("(ilosc)")    
+elif jednostka1 == "cm":
+        
+    
