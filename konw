@@ -4,16 +4,51 @@ jednostka2=input("na jaka jednostke chcesz przeliczyc(m, km, cm, mm): ")
 
 if jednostka1 == "mm":
     if jednostka2=="mm":
-        print:("(ilosc)")
+        print:(ilosc)
     elif jednostka2=="cm":
         ilosc /= 10
-        print("(ilosc)")
+        print(ilosc)
     elif jednostka2=="m":
         ilosc /= 1000
-        print("(ilosc)")
+        print(ilosc)
     elif jednostka2=="km":
         ilosc /= 1000000
-        print("(ilosc)")    
+        print(ilosc)    
 elif jednostka1 == "cm":
-        
-    
+    if jednostka2=="mm":
+        ilosc *= 10
+        print:(ilosc)
+    elif jednostka2=="cm":
+        print(ilosc)
+    elif jednostka2=="m":
+        ilosc /= 100
+        print(ilosc)
+    elif jednostka2=="km":
+        ilosc /= 100000
+        print(ilosc)  
+elif jednostka1 == "m":
+    if jednostka2=="mm":
+        ilosc *= 1000
+        print:(ilosc)
+    elif jednostka2=="cm":
+        ilosc *= 100
+        print(ilosc)
+    elif jednostka2=="m":
+        print(ilosc)
+    elif jednostka2=="km":
+        ilosc /= 1000
+        print(ilosc)      
+elif jednostka1 == "km":
+    if jednostka2=="mm":
+        ilosc *= 1000000
+        print:(ilosc)
+    elif jednostka2=="cm":
+        ilosc *= 100000
+        print(ilosc)
+    elif jednostka2=="m":
+        ilosc *= 1000
+        print(ilosc)
+    elif jednostka2=="km":
+        print(ilosc)           
+else:
+    print("nie przeliczam na taka jednostke")
