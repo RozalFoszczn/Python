@@ -12,11 +12,9 @@ if st == 1:
         a=(end-start)
         if a<=6:
             print("Piszesz niczym profesjonalista!")
-        elif a<=7:
+        elif a<=9 and a>6:
             print("Piszesz bardzo szybko")
-        elif a<=8:
-            print("Nie jest zle")
-        elif a<=9:
+        elif a<=10:
             print("moze sproboj jeszcze raz")
         else:
             print("potrzebujesz jeszcze pocwiczyc")
