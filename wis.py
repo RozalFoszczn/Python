@@ -19,7 +19,7 @@ if wyb=="jedno":
 
     while zycia > 0:
         print("")
-        print(pseudonim, " pozostalo ci ", zycia, " zyc")
+        print(" pozostalo ci ", zycia, " zyc")
         print("")
         print(" ".join(tablica))
         print(" ")
@@ -38,12 +38,13 @@ if wyb=="jedno":
  
             if "".join(map(str, tablica)) == haslo:
                 print("")
-                print(pseudonim, " pozostalo ci ", zycia, " zyc")
+                print(" pozostalo ci ", zycia, " zyc")
                 print("")
                 print(" ".join(tablica))
                 print(" ")
-                print(pseudonim, " wygrales!")
+                print(" wygrales!")
                 break
-  
         else:
-            zycia -= 1
+                zycia -= 1
+elif wyb=="wielo":
+     
